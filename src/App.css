@@ -1,0 +1,104 @@
+body{
+  font-family: Sans-serif;
+}
+#home{
+  background: url('./images/fitness.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1, h2{
+  margin: 0;
+  text-align: center;
+}
+#homeHead{
+  font-size: 3.5vw;
+}
+button{
+  background-color: rgb(49, 77, 109);
+  color: white;
+  padding: 8px 40px;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+label{
+  display: block;
+  margin: 15px 0px;
+}
+#form{
+  border: 1px solid rgba(24, 29, 71, 0.466);
+  width: 35%;
+  margin: auto;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 20px;
+}
+input, select, textarea{
+  width: 90%;
+  height: 25px;
+  padding: 5px;
+  font-size: 1.1vw;
+}
+#form > div{
+  border: 1px solid rgba(97, 108, 168, 0.363);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#bookBtn{
+  margin-top: 30px;
+  margin-right: 10px;
+}
+select{
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.452);
+  height: 38px;
+  width: 92.5%;
+}
+textarea{
+  font-size: 1vw;
+  height: 4vw;
+}
+#successMsgDiv{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: rgba(49, 77, 109, 0.808); */
+  height: 100vh;
+}
+#successDiv{
+  /* border: 1px solid red; */
+  width: 35%;
+  margin: auto;
+  margin-top: 10vw;
+  padding: 30px;
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.452);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 13vw;
+  background-color: white;
+}
+#bookingHead{
+ margin: 15px 0px;
+}
+#viewBooked{
+  padding: 10px;
+  width: 43%;
+  margin: auto;
+}
+#bookedHead{
+  margin: 20px;
+}
+#viewBooked > div{
+  box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.452);
+  padding: 13px;
+  margin-bottom: 20px;
+}
